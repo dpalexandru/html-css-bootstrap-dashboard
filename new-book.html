@@ -83,8 +83,34 @@
             <input type="text" name="titoloLibro" id="titolo-libro " class=" form-control "
               placeholder="Inserisci titolo del libro...">
             <div class="form-text fs-6">Titolo versione italiana</div>
-
           </div>
+
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="genere-libro" class="form-label fs-5">Genere</label>
+              <select class="form-select" aria-label="genere-libro">
+                <option selected>Scegli il genere</option>
+                <option value="giallo">giallo</option>
+                <option value="fantasy">fantasy</option>
+                <option value="thriller">thriller</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="data-libro" class="form-label fs-5">Anno Pubblicazione</label>
+              <input type="number" name="dataLibro" id="data-libro " class="form-control " min="1500" max="2099"
+                placeholder="Inserisci l'anno...">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="codice-isbn" class="form-label fs-5">ISBN#</label>
+              <input type="text" name="codiceIsbn" id="codice-isbn" class="form-control " minlength="10" maxlength="15"
+                placeholder=" Inserisci codice ISBN#">
+            </div>
+          </div>
+          <hr class="border border-secondary mt-3 ">
 
 
         </div>
